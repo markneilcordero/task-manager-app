@@ -1,0 +1,45 @@
+.container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 12px;
+  transition: background 0.3s ease;
+}
+
+.list-group-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  margin-left: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
